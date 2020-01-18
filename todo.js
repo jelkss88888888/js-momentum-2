@@ -22,7 +22,7 @@ function deleteBtn(event) {
 
 function makeTodo(inputValue) {
     const li = document.createElement("li");
-    const delBtn = document.createElement("botton");
+    const delBtn = document.createElement("button");
     const text = document.createElement("span");
     const idNumber = todoArray.length + 1;
     text.innerText = inputValue;
